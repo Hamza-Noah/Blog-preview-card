@@ -1,0 +1,91 @@
+:root {
+    --main-color: #f4d04e;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 150px 24px;
+    font-family: "Figtree", sans-serif;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    max-width: 384px;
+    border-radius: 15px;
+    border: solid 1px;
+    box-shadow: 8px 8px black;
+    transition: all ease .2s;
+
+}
+
+.card:hover {
+    box-shadow: 16px 16px black;
+
+}
+
+.card:hover h1 {
+    color: var(--main-color);
+}
+
+.card .img img {
+    border-radius: 10px;
+}
+
+.flag {
+    background-color: var(--main-color);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #111111;
+    font-weight: 800;
+
+}
+
+.flag+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+h1 {
+    color: #111111;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    transition: all ease .2s;
+}
+
+h1+p {
+    color: #6b6b6b;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+.account img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px
+}
+
+.account p {
+    color: #111111;
+    font-weight: 800;
+}
