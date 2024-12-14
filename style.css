@@ -45,11 +45,12 @@ body {
 .flag {
     background-color: var(--main-color);
     width: fit-content;
-    padding: 5px 10px;
+    padding: 3px 10px;
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 20px 0;
     color: #111111;
     font-weight: 800;
+    font-size: 15px;
 
 }
 
@@ -69,7 +70,7 @@ h1 {
 h1+p {
     color: #6b6b6b;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .account {
@@ -81,8 +82,8 @@ h1+p {
 
 .account img {
     border-radius: 50%;
-    width: 40px;
-    height: 40px
+    width: 44px;
+    height: 44px
 }
 
 .account p {
