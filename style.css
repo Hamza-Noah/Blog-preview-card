@@ -54,7 +54,7 @@ body {
     margin: 20px 0;
     color: #111111;
     font-weight: 800;
-    font-size:  0.9375rem;
+    font-size: 0.9375rem;
 
 }
 
@@ -87,11 +87,12 @@ h1+p {
 
 .account img {
     border-radius: 50%;
-    width: 55px;
-    height: 55px
+    width: 45px;
+    height: 45px
 }
 
 .account p {
     color: #111111;
     font-weight: 800;
+    font-size: .75rem;
 }
