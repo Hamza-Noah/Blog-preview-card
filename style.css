@@ -2,11 +2,15 @@
     --main-color: #f4d04e;
 }
 
-* {
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
 
 body {
     background-color: var(--main-color);
@@ -14,14 +18,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 150px 24px;
+    padding: 9.375rem 1.5rem;
     font-family: "Figtree", sans-serif;
 }
 
 .card {
     background-color: white;
-    padding: 24px;
-    max-width: 384px;
+    padding: 1.5rem;
+    max-width: 24rem;
     border-radius: 15px;
     border: solid 1px;
     box-shadow: 8px 8px black;
@@ -34,7 +38,7 @@ body {
 
 }
 
-.card:hover h1 {
+.card:hover h1 a {
     color: var(--main-color);
 }
 
@@ -50,7 +54,7 @@ body {
     margin: 20px 0;
     color: #111111;
     font-weight: 800;
-    font-size: 15px;
+    font-size:  0.9375rem;
 
 }
 
@@ -59,12 +63,13 @@ body {
     font-size: 14px;
 }
 
-h1 {
+h1 a {
     color: #111111;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     transition: all ease .2s;
+    text-decoration: none;
 }
 
 h1+p {
@@ -82,8 +87,8 @@ h1+p {
 
 .account img {
     border-radius: 50%;
-    width: 44px;
-    height: 44px
+    width: 55px;
+    height: 55px
 }
 
 .account p {
